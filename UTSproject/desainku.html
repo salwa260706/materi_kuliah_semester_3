@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desainku - Shasa</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(180deg, #e7e0ff, #ffe8f4);
+      margin: 0;
+      padding: 0;
+      color: #444;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      padding: 30px;
+    }
+    h2 {
+      color: #a069d7;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 14px;
+      color: #555;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #b47cff;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+    a:hover {
+      color: #8b5cf6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>🎨 Desainku</h2>
+    <p>Beberapa karya desain yang pernah aku buat, dari latihan hingga eksperimen kecil 💕</p>
+
+    <div class="gallery">
+      <img src="desainku1.jpg" alt="Desain 1">
+      <img src="desainku2.jpg" alt="Desain 2">
+      <img src="desainku4.jpg" alt="Desain 4">
+    </div>
+
+    <a href="index.html">← Kembali ke Beranda</a>
+  </div>
+</body>
+</html>
